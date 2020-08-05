@@ -112,6 +112,7 @@ h4{
 }
 #pesq{
     width: 100%;
+    display: flex;
     justify-content: center;
     margin-top: -40px;
     position: relative;
@@ -119,34 +120,38 @@ h4{
 .barPesquisa{
     background:#FFFFFF;
     border: none;
-    margin: auto;
-    width: 700px;
+    border-radius:72px;
+    width: 100%;
     position: relative;
     height: 73px;
-    border-radius:72px;
-    box-shadow: 0px 15px 30px rgba(85, 56, 238, 0.16);
+    border-style: none;
+    margin-top: 20px;
+
 }
 #hashtag{
+    background:#FFFFFF;
     font-size: 190%;
-    opacity: 31%;
-    border:none;
-    width: 550px;
+    opacity: 30%;
+    border:black;
+    width: 75%;
     position: relative;
     border-style: none;
     font-family: 'Rubik', sans-serif;
     text-align: left;
-    margin: 15px;
-    outline: none;
+   margin-top: 20px ;
+        outline: none;
+    border-radius:72px;
+    box-shadow: 0px 15px 30px rgba(85, 56, 238, 0.16);
 }
 #botao3{
     background: url('../imagens hashtag finder/icon-search.svg') no-repeat;
     border: none;
-    width: 30px;
+    width: 10%;
     position: relative;
+    margin-top: 20px ;  
     height: 30px;
-    margin: 20px;
-    margin-left: 55px;
-    float: left;
+  margin-left: 30px;
+     float: left;
     outline: none;
     cursor: pointer;
 }
